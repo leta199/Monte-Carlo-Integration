@@ -14,12 +14,21 @@ Environement: RStudio
 
 ## METHODS AND TECHNIQUES    
 **Approximation of Integral**   
-For this integral its is one that is difficult to integrate and has no closed-form solution. 
+For this integral its is one that is difficult to integrate and has no closed-form solution. Therefore we will manipulate this integral into an expectation so that we can solve it using probability theory. 
 
 We begin by (as always) setting up a seed for reprodicibility.  
-Define our function - we define the funtion we need to integrate   
-Setting up the number of simulations we will use to generate n many random variables 
-Evaluate function - we evaluate the function at each random variable  
+Define our function - we define the funtion that we will use for our expectation that we can plug our random variables into. 
+Setting up the number of simulations we will use to generate n many random variables.
+Evaluate function - we evaluate the function at each random variable.   
+Find the expcetd value of this function by getting the average of all evaluations.
+
+**Approxiamtion of summation**
+Since this summation will also be difficult to evaluate, we must manipulate it into expectation (weighted mean) that we can then simulate in order to get an approximation of the summation. 
+
+We define the function `func2()` that we can use as to find of the expection.  
+
+
+
 
 ## PROJECT STRUCTURE      
 |[Simulation- Random Walks](https://github.com/leta199/Simulation-Random-Walks)  
