@@ -22,6 +22,8 @@ For this integral its is one that is difficult to integrate and has no closed-fo
 4) Evaluate function - we evaluate the function at each random variable.   
 Find the expcetd value of this function by getting the average of all evaluations.
 
+To learn more about this method, take a look at this mathematical intuition: [How we use monte carlo for integrals](https://github.com/leta199/Monte-Carlo-Integration/blob/main/theoretical_solution/Monte_Carlo_Integration-%20integral.pdf)
+
 **Approxiamtion of summation**
 Since this summation will also be difficult to evaluate, we must manipulate it into expectation (weighted mean) that we can then simulate in order to get an approximation of the summation. 
 
@@ -30,6 +32,7 @@ Since this summation will also be difficult to evaluate, we must manipulate it i
 3) We then generate random variables form a known ditribution that we evalue the expectation at.   
 4) Finally, evaulate the mean of the all values of the evaluated funtion to findd the value of the approximation of the summation.  
 
+To learn more about this method, take a look at this mathematical intuition: [How we use monte carlo for summations](https://github.com/leta199/Monte-Carlo-Integration/blob/main/theoretical_solution/Monte_Carlo_Integration-%20summation.pdf)
 
 ## PROJECT STRUCTURE           
 |[Monte Carlo Integration](https://github.com/leta199/Monte-Carlo-Integration/blob/main/Monte%20Carlo%20Integration.r)  
